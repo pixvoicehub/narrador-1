@@ -85,7 +85,7 @@ def generate_audio_endpoint():
         logger.info("Configurando o cliente Google GenAI...")
         client = genai.Client(api_key=api_key)
 
-        model_name = "gemini-2.5-pro-preview-tts"
+        model_name = "gemini-2.5-flash-preview-tts"
         logger.info(f"Usando o modelo: {model_name}")
 
         # 4. Preparar o conteúdo e a configuração
